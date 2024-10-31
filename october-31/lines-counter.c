@@ -12,9 +12,9 @@ int main () { // counts each line and prints at the end
    // when loop stops the code below outputs the result grammatically correct
 
   if (nc == 0)
-    return printf("No line was entered");
+    return printf("No line was entered\n");
   else if (nc == 1)
-    return printf("%d line was entered", nc);
+    return printf("%d line was entered\n", nc);
 
-  return printf("%d lines were entered", nc);
+  return printf("%d lines were entered\n", nc);
 }
